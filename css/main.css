@@ -314,8 +314,18 @@ font-size: 20px;
   background-repeat: no-repeat;
   background-position: bottom left;
 }
+#garden-section .box{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+}
+#garden-section .box .info{
+
+  padding: 0 20px ;
+}
 #garden-section .box .num {
   font-size: 55px;
+  padding: 20px;
   color: #918f8f;
   font-style: italic;
 }
