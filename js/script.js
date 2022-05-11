@@ -5,9 +5,9 @@ $('.owl-carousel').owlCarousel({
   autoplay:true,
   responsive:{
       0:{
-          items:2
+          items:1
       },
-      600:{
+      768:{
           items:2
       },
       1000:{
