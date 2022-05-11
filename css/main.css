@@ -27,6 +27,22 @@ ul {
 a {
   text-decoration: none;
 }
+.scroll-top-btn {
+  display: none;
+  background-color: var(--primary-yellow);
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.scroll-top-btn.show{
+  display: block;
+}
 .section-heading {
   margin: 20px 0;
 }
@@ -80,7 +96,7 @@ a {
   transition: var(--general-transition);
 }
 /*header-upper*/
-.header-upper{
+.header-upper {
   padding: 10px 100px;
 }
 .header-upper .header-lg {
@@ -89,9 +105,9 @@ a {
 }
 .header-scroll {
   width: 100%;
-  background-color:var(--secondary-green);
+  background-color: var(--secondary-green);
   position: fixed;
-  top:0;
+  top: 0;
   border-bottom: 4px solid var(--primary-yellow);
 }
 .header-upper .header-lg .search-btn {
@@ -99,6 +115,11 @@ a {
   border: none;
   padding: 0;
   color: var(--white);
+}
+.header-upper  .search-input::placeholder{
+  color: var(--white);
+  letter-spacing:.4px;
+  font-size: 16px;
 }
 .header-upper .nav-link {
   letter-spacing: 0.5px;
@@ -175,14 +196,14 @@ a {
 }
 .header-mobile .main-menu-content {
   position: fixed;
-  right:-10000px;
+  right: -10000px;
   top: 0;
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
 }
 .main-menu-content-show {
- left:0;
+  left: 0;
 }
 .header-mobile .main-menu {
   position: absolute;
@@ -204,8 +225,8 @@ a {
   font-weight: 400px;
   display: inline;
 }
-.header-mobile .close-main-menu-btn i{
-font-size: 20px;
+.header-mobile .close-main-menu-btn i {
+  font-size: 20px;
 }
 /*home*/
 #home {
@@ -219,15 +240,15 @@ font-size: 20px;
   position: absolute;
   top: 0;
 }
-#home .home-img  {
-  background: url('../img/main/home/home.jpg');
+#home .home-img {
+  background: url("../img/main/home/home.jpg");
   background-size: cover;
   width: 100%;
   height: 80vh;
 }
 #home .categories-wrapper {
   position: absolute;
-  bottom:0;
+  bottom: 0;
   width: 100%;
 }
 .categories-wrapper .category-box {
@@ -316,7 +337,6 @@ font-size: 20px;
 #garden-section {
   background-color: var(--primary-bg);
   padding: 20px 0;
-
 }
 #garden-section .section-content {
   min-height: 100vh;
@@ -324,14 +344,12 @@ font-size: 20px;
   background-repeat: no-repeat;
   background-position: bottom left;
 }
-#garden-section .box{
+#garden-section .box {
   border: 1px solid #ddd;
   border-radius: 10px;
-
 }
-#garden-section .box .info{
-
-  padding: 0 20px ;
+#garden-section .box .info {
+  padding: 0 20px;
 }
 #garden-section .box .num {
   font-size: 55px;
