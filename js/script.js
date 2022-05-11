@@ -20,6 +20,9 @@ $('.owl-carousel').owlCarousel({
       const done=()=>{
         $('.preloader-content').hide()
       }
+     $(window).scroll(()=>{
+$(this).scrollTop()>=30?($(".header-upper").addClass("header-scroll")):($(".header-upper").removeClass("header-scroll"))
+     })
       /*search menu*/
       $(".search-btn").on("click", () => {
         $(".search-menu").addClass("search-menu-open");

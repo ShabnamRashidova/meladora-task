@@ -3,7 +3,9 @@
     display: none;
   }
   #home .categories-wrapper {
-    padding: 0 30px 
+    padding: 0 30px ;
+   top:200px;
+
   }
   #about .about-image {
     height: 350px;
@@ -36,6 +38,9 @@
   }
 }
 @media (max-width: 768px) {
+  .header-upper{
+    padding: 10px 30px;
+  }
   .products-wrapper{
     padding: 0 30px;
   }

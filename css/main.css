@@ -80,9 +80,19 @@ a {
   transition: var(--general-transition);
 }
 /*header-upper*/
+.header-upper{
+  padding: 10px 100px;
+}
 .header-upper .header-lg {
   position: relative;
   padding: 10px 0;
+}
+.header-scroll {
+  width: 100%;
+  background-color:var(--secondary-green);
+  position: fixed;
+  top:0;
+  border-bottom: 4px solid var(--primary-yellow);
 }
 .header-upper .header-lg .search-btn {
   background: transparent;
